@@ -33,7 +33,7 @@ function FitnessClubRegistration() {
           <input class="bo" type="email" name="email" placeholder="Email" />
           <input  class="bo" type="text" name="phoneNumber" placeholder="Phone Number" />
           <input class="bo" type="text" name="address" placeholder="Address" />
-          <button class="bo but" type="submit">Add Member</button>
+          <button class="bo but" onClick={()=> {alert("User Added Succesfully")}}type="submit">Add Member</button>
           <button class="bo but" onClick={() => handleViewMember(members[0])}>
             View Member List
           </button>
